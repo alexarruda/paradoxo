@@ -30,6 +30,13 @@ body {
   .carousel-caption h3 {
       color: #fff !important;
   }
+  .footer p {
+    font-family: Montserrat, sans-serif;
+    font-size: 11px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+
   @media (max-width: 600px) {
     .carousel-caption {
       display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */

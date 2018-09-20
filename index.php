@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <title>World Adwards</title>
+  <title>Paradoxo Studio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -10,9 +10,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/main.css">
 </head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+<body id="home" data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
@@ -22,23 +21,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#myPage">Logo</a>
+      <a class="navbar-brand" href="#home">Paradoxo Studio</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#myPage">HOME</a></li>
-        <li><a href="#band">BAND</a></li>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#band">SKILL</a></li>
         <li><a href="#tour">TOUR</a></li>
         <li><a href="#contact">CONTACT</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
-          <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Merchandise</a></li>
-            <li><a href="#">Extras</a></li>
-            <li><a href="#">Media</a></li> 
-          </ul>
-        </li>
         <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
       </ul>
     </div>
@@ -56,26 +46,26 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="img/ny.jpg" alt="New York" width="1200" height="700">
+        <img src="img/dev-2.jpg" alt="Developer Banner" width="1200" height="700">
         <div class="carousel-caption">
-          <h3>New York</h3>
-          <p>The atmosphere in New York is lorem ipsum.</p>
+          <!-- <h3>Development Team</h3>
+          <p>The atmosphere in New York is lorem ipsum.</p> -->
         </div>      
       </div>
 
       <div class="item">
-        <img src="img/chicago.jpg" alt="Chicago" width="1200" height="700">
+        <img src="img/dev.jpg" alt="Developer Workspace" width="1200" height="700">
         <div class="carousel-caption">
-          <h3>Chicago</h3>
-          <p>Thank you, Chicago - A night we won't forget.</p>
+          <!-- <h3>Production Environment</h3>
+          <p>Thank you, Chicago - A night we won't forget.</p> -->
         </div>      
       </div>
     
       <div class="item">
-        <img src="img/la.jpg" alt="Los Angeles" width="1200" height="700">
+        <img src="img/dev-3.jpeg" alt="Developer React" width="1200" height="700">
         <div class="carousel-caption">
-          <h3>LA</h3>
-          <p>Even though the traffic was a mess, we had the best time playing at Venice Beach!</p>
+          <!-- <h3>Agile Code</h3>
+          <p>Even though the traffic was a mess, we had the best time playing at Venice Beach!</p> -->
         </div>      
       </div>
     </div>
@@ -93,15 +83,15 @@
 
 <!-- Container (The Band Section) -->
 <div id="band" class="container text-center">
-  <h3 class="title">THE BAND</h3>
+  <h3 class="title">THE SKILL</h3>
   <p><em>We love music!</em></p>
   <p>We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
   <br>
   <div class="row">
     <div class="col-sm-4">
-      <p class="text-center"><strong>Name</strong></p><br>
+      <p class="text-center"><strong>HMTL5</strong></p><br>
       <a href="#demo" data-toggle="collapse">
-        <img src="img/bandmember.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+        <img src="img/skill-1.png" class="img-circle person" alt="HTML5 Skill" width="255" height="255">
       </a>
       <div id="demo" class="collapse">
         <p>Guitarist and Lead Vocalist</p>
@@ -110,9 +100,9 @@
       </div>
     </div>
     <div class="col-sm-4">
-      <p class="text-center"><strong>Name</strong></p><br>
+      <p class="text-center"><strong>CSS3</strong></p><br>
       <a href="#demo2" data-toggle="collapse">
-        <img src="img/bandmember.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+        <img src="img/skill-2.png" class="img-circle person" alt="CSS3 Skill" width="255" height="255">
       </a>
       <div id="demo2" class="collapse">
         <p>Drummer</p>
@@ -121,9 +111,9 @@
       </div>
     </div>
     <div class="col-sm-4">
-      <p class="text-center"><strong>Name</strong></p><br>
+      <p class="text-center"><strong>JavaScript</strong></p><br>
       <a href="#demo3" data-toggle="collapse">
-        <img src="img/bandmember.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+        <img src="img/skill-3.png" class="img-circle person" alt="JS Skill" width="255" height="255">
       </a>
       <div id="demo3" class="collapse">
         <p>Bass player</p>
@@ -216,10 +206,10 @@
 
   <div class="row">
     <div class="col-md-4">
-      <p>Fan? Drop a note.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span>Chicago, US</p>
-      <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>
-      <p><span class="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p>	   
+      <p>Development Environment</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>Presidente Prudente, SP</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Phone: +55 (18)991485668</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Email: contato@paradoxostudio.com</p>	   
     </div>
     <div class="col-md-8">
       <div class="row">
@@ -292,11 +282,11 @@ google.maps.event.addDomListener(window, 'load', initialize);
 </script>
 
 <!-- Footer -->
-<footer class="text-center">
-  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+<footer class="text-center footer">
+  <a class="up-arrow" href="#home" data-toggle="tooltip" title="Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a><br><br>
-  <p>Bootstrap Theme Made By <?php echo date("Y") ?> <a href="http://www.w3schools.com" data-toggle="tooltip" title="Visit w3schools">www.w3schools.com</a></p> 
+  <p>Paradoxo Studio por - <a href="http://alexarruda.com.br" data-toggle="tooltip" title="Alex Arruda Developer" target="_blank">alexarruda.com.br</a></p> 
 </footer>
 
 <script>
@@ -305,7 +295,7 @@ $(document).ready(function(){
   $('[data-toggle="tooltip"]').tooltip(); 
   
   // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+  $(".navbar a, footer a[href='#home']").on('click', function(event) {
 
     // Prevent default anchor click behavior
     event.preventDefault();
