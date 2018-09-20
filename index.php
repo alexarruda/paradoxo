@@ -3,7 +3,11 @@
 <head>
   <title>Paradoxo Studio</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="index, follow" />
+  <meta name="description" content="Paradoxo Studio, existem coisas que não tem explicação!" />
+  <meta name="author" content="Paradoxo Studio" />
+  <meta name="generator" content="Paradoxo Studio" />
+  <meta name="keywords" content="Meu Site,Online,Marketing,Desenvolvimento Web,PHP,HTML5,Web,Digital,Responsivo,Paradoxo,Studio Paradoxo,Gato,Site" />
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
